@@ -412,7 +412,7 @@ def main(args):
     
     #linking all the elements
     print("Linking elements in the Pipeline \n")
-    streammux.link(queue_1)
+    streammux.link(queue)
     queue.link(pgie)
     pgie.link(nvtiler)
     nvtiler.link(nvosd)
