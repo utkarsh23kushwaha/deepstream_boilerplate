@@ -442,8 +442,7 @@ def main(args):
     # Listing the sources
     print("Now playing...")
     for i, source in enumerate(args):
-        if (i != 0):
-            print(i, ": ", source)
+        print(i, ": ", source)
 
 ######################################################################
     print("Starting pipeline \n")
